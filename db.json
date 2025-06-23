@@ -1,0 +1,12 @@
+{
+  "productos": [
+    {
+      "id": "dlXXJBRza74WqhSmYh-vc",
+      "nombre": "coco",
+      "precio": 10,
+      "descripcion": "un coco natural",
+      "disponible": true,
+      "fecha_ingreso": "2025-06-23T04:59:21.183Z"
+    }
+  ]
+}
