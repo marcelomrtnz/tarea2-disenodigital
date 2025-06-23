@@ -16,7 +16,7 @@ const { initDB } = require('./controller');
   app.use(express.json())
 
   // Rutas
-  const productosRouter = require('./productosRoutes')
+  const productosRouter = require('./router')
   app.use('/productos', productosRouter)
 
   // Inicio del servidor

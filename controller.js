@@ -4,7 +4,7 @@ const { nanoid } = require("nanoid")
 const productoSchema = require("./model")
 
 const adaptador = new JSONFile("db.json")
-const db = new Low(adaptador)
+const db = new Low(adaptador, { productos: [] })
 
 async function initDB() {
   await db.read()
